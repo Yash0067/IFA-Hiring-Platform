@@ -1,0 +1,6 @@
+.env
+.env.example
+.DS_Store
+
+# Exclude the duplicate workspace copy from the repository root.
+IFA-Hiring-Platform-main/
