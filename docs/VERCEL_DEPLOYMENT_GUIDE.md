@@ -12,7 +12,7 @@ Your project is **DEPLOYMENT READY**! All necessary configurations are in place.
 
 1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
 2. Click **"Add New"** → **"Project"**
-3. Import your GitHub repository: `Ajinkyaa2004/IFA-Hiring-Platform`
+3. Import your GitHub repository: `Yash0067/IFA-Hiring-Platform`
 4. Vercel will detect the repository
 
 ### Step 2: Configure Backend Project
@@ -76,7 +76,7 @@ TELEGRAM_BOT_TOKEN=your-telegram-bot-token
 
 1. Go back to [Vercel Dashboard](https://vercel.com/dashboard)
 2. Click **"Add New"** → **"Project"**
-3. Import the **SAME** GitHub repository: `Ajinkyaa2004/IFA-Hiring-Platform`
+3. Import the **SAME** GitHub repository: `Yash0067/IFA-Hiring-Platform`
 
 ### Step 2: Configure Frontend Project
 

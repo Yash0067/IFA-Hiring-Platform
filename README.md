@@ -2,7 +2,10 @@
 
 # 🎮 IFA SkillQuest
 
-### Gamified Cognitive Assessment Platform for Modern Hiring
+### Structured cognitive signals for modern hiring
+
+> A polished assessment workspace where candidates demonstrate how they think
+> and hiring teams see comparable, actionable signals.
 
 [![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/)
@@ -21,7 +24,15 @@
 
 ## 🌟 Overview
 
-**IFA SkillQuest** is a next-generation hiring assessment platform that transforms traditional candidate evaluation through gamified cognitive testing. Our platform delivers sequential, timed challenges that measure risk assessment, spatial reasoning, logical sequencing, and domain knowledge—providing recruiters with actionable insights into candidate capabilities.
+**IFA SkillQuest** is a hiring assessment platform that transforms candidate
+evaluation through sequential, timed challenges. It measures risk assessment,
+spatial reasoning, logical sequencing, and domain knowledge while giving
+recruiters a consistent analytics surface.
+
+The interface has been refreshed around a modern professional visual system:
+indigo for primary decisions, cyan for progress, and amber for milestones.
+See the [updated architecture diagrams](docs/ARCHITECTURE.md) for the system,
+assessment flow, and deployment topology.
 
 Built with modern web technologies and deployed on Vercel, SkillQuest offers role-based dashboards, real-time leaderboards, and comprehensive analytics while maintaining an engaging user experience through anti-cheating mechanisms and progressive game unlocking.
 
@@ -44,7 +55,7 @@ Built with modern web technologies and deployed on Vercel, SkillQuest offers rol
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/skillquest-platform.git
+git clone https://github.com/Yash0067/IFA-Hiring-Platform.git
 cd skillquest-platform
 
 # Backend setup
@@ -66,7 +77,7 @@ npm run dev
 
 ## 🎬 Demo
 
-<!-- 🌐 Live Demo: [https://skillquest-demo.vercel.app](https://skillquest-demo.vercel.app) -->
+<!-- 🌐 Add the production Vercel URL here after deployment. -->
 
 <details>
 <summary>📸 Screenshots (Click to expand)</summary>
@@ -335,7 +346,7 @@ graph TB
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/skillquest-platform.git
+git clone https://github.com/Yash0067/IFA-Hiring-Platform.git
 cd skillquest-platform
 ```
 
@@ -1031,7 +1042,7 @@ Comprehensive guides available in [`docs/`](docs/) folder:
   - Calendar scheduling
   - Video interview integration
 
-**💡 Have a feature request?** [Open an issue](https://github.com/yourusername/skillquest-platform/issues/new) with the `feature-request` label!
+**💡 Have a feature request?** [Open an issue](https://github.com/Yash0067/IFA-Hiring-Platform/issues/new) with the `feature-request` label!
 
 ---
 
@@ -1039,9 +1050,9 @@ Comprehensive guides available in [`docs/`](docs/) folder:
 
 <div align="center">
 
-![Contributors](https://img.shields.io/github/contributors/yourusername/skillquest-platform?style=flat)
-![Issues](https://img.shields.io/github/issues/yourusername/skillquest-platform?style=flat)
-![Pull Requests](https://img.shields.io/github/issues-pr/yourusername/skillquest-platform?style=flat)
+![Contributors](https://img.shields.io/github/contributors/Yash0067/IFA-Hiring-Platform?style=flat)
+![Issues](https://img.shields.io/github/issues/Yash0067/IFA-Hiring-Platform?style=flat)
+![Pull Requests](https://img.shields.io/github/issues-pr/Yash0067/IFA-Hiring-Platform?style=flat)
 
 </div>
 
@@ -1156,7 +1167,7 @@ chore: update dependencies
 ## 💬 Support
 
 - **📖 Documentation** - Check [docs/](docs/) folder for comprehensive guides
-- **🐛 Issues** - Report bugs via [GitHub Issues](https://github.com/yourusername/skillquest-platform/issues)
+- **🐛 Issues** - Report bugs via [GitHub Issues](https://github.com/Yash0067/IFA-Hiring-Platform/issues)
 
 ---
 

@@ -3,37 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 222.2 84% 4.9%;
+  --background: 222 47% 97%;
+  --foreground: 222 47% 11%;
   --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
+  --card-foreground: 222 47% 11%;
   --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
-  --primary: 174 100% 29%;
+  --popover-foreground: 222 47% 11%;
+  --primary: 221 83% 53%;
   --primary-foreground: 210 40% 98%;
-  --secondary: 177 70% 41%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
-  --accent: 25 95% 53%;
-  --accent-foreground: 222.2 47.4% 11.2%;
-  --destructive: 0 84.2% 60.2%;
+  --secondary: 187 74% 42%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 220 20% 94%;
+  --muted-foreground: 220 15% 43%;
+  --accent: 187 74% 42%;
+  --accent-foreground: 222 47% 11%;
+  --destructive: 0 72% 51%;
   --destructive-foreground: 210 40% 98%;
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 174 100% 29%;
-  --radius: 0.75rem;
+  --border: 220 18% 88%;
+  --input: 220 18% 88%;
+  --ring: 221 83% 53%;
+  --radius: 0.875rem;
   
-  /* Playful Professional Theme Variables */
-  --game-teal: 174 100% 29%;
-  --game-orange: 25 95% 53%;
-  --game-purple: 262 83% 58%;
-  --playful-bg: linear-gradient(135deg, #f0fdfa 0%, #fff7ed 50%, #faf5ff 100%);
-  --card-shadow: 0 10px 25px -3px rgba(20, 184, 166, 0.1), 0 4px 6px -2px rgba(20, 184, 166, 0.05);
-  --badge-shadow: 0 4px 14px 0 rgba(168, 85, 247, 0.39);
-  --glow-teal: 0 0 20px rgba(20, 184, 166, 0.5);
-  --glow-orange: 0 0 20px rgba(249, 115, 22, 0.5);
-  --glow-purple: 0 0 20px rgba(168, 85, 247, 0.5);
+  --game-teal: 187 74% 42%;
+  --game-orange: 31 92% 55%;
+  --game-purple: 221 83% 53%;
+  --playful-bg: linear-gradient(135deg, #f5f8ff 0%, #eefbf9 52%, #f8faff 100%);
+  --card-shadow: 0 18px 45px -20px rgba(30, 64, 175, 0.26), 0 4px 12px -5px rgba(15, 23, 42, 0.08);
+  --badge-shadow: 0 8px 18px -8px rgba(37, 99, 235, 0.55);
+  --glow-teal: 0 0 24px rgba(6, 182, 212, 0.28);
+  --glow-orange: 0 0 24px rgba(245, 158, 11, 0.28);
+  --glow-purple: 0 0 24px rgba(37, 99, 235, 0.28);
 }
 
 * {
@@ -43,9 +42,13 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(37, 99, 235, 0.08), transparent 28rem),
+    radial-gradient(circle at 90% 10%, rgba(6, 182, 212, 0.08), transparent 25rem),
+    hsl(var(--background));
+  color: hsl(var(--foreground));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -145,7 +148,8 @@ code {
 /* Playful Professional Theme - Gamification Styles */
 .game-card {
   background: white;
-  border-radius: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 1.25rem;
   box-shadow: var(--card-shadow);
   transition: all 0.3s ease;
 }
@@ -174,6 +178,25 @@ code {
 
 .playful-gradient {
   background: var(--playful-bg);
+}
+
+.surface-grid {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.045) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 0.9rem;
+  color: white;
+  background: linear-gradient(135deg, #1d4ed8, #06b6d4);
+  box-shadow: 0 12px 24px -12px rgba(29, 78, 216, 0.8);
 }
 
 .teal-glow {

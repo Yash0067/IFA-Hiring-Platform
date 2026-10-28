@@ -239,7 +239,7 @@ export const RoleSelection: React.FC = () => {
       initial={{opacity: 0, scale: 0.98}}
       animate={{opacity: 1, scale: 1}}
       transition={{duration: 0.8, ease: [0.22, 1, 0.36, 1]}}
-      className="min-h-screen playful-gradient flex items-center justify-center p-6 relative overflow-hidden"
+      className="min-h-screen playful-gradient surface-grid flex items-center justify-center p-6 relative overflow-hidden"
     >
       {/* Hackathon Notification Banner */}
       <HackathonNotification />
@@ -303,14 +303,14 @@ export const RoleSelection: React.FC = () => {
             IFA SkillQuest
           </h1>
 
-          <p className="text-lg font-medium text-game-purple-600/90 mt-2 flex items-center justify-center gap-2">
-            Choose your journey and let SkillQuest guide you{" "}
+          <p className="text-lg font-medium text-blue-700/90 mt-2 flex items-center justify-center gap-2">
+            Better hiring signals, built through practical challenges{" "}
             <Rocket className="w-5 h-5 text-game-orange-500" />
           </p>
 
-          <p className="text-lg text-gray-700 mt-2 flex items-center justify-center gap-2">
-            Select your role to continue{" "}
-            <ArrowDown className="w-5 h-5 text-game-purple-500" />
+          <p className="text-base text-slate-600 mt-3 flex items-center justify-center gap-2">
+            Select your workspace to continue{" "}
+            <ArrowDown className="w-5 h-5 text-blue-600" />
           </p>
         </div>
 
